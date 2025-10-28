@@ -7,6 +7,8 @@ File contains 2 functions
 """
 
 def sort_integers(numbers, descending=False):
+
+    # Sort Integer Branch Example: Used python's built-in sorted() function 
     return sorted(numbers, reverse=descending)
 
 def sort_strings(strings, reverse=False):
