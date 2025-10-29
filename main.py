@@ -12,6 +12,8 @@ def sort_integers(numbers, descending=False):
     return sorted(numbers, reverse=descending)
 
 def sort_strings(strings, reverse=False):
+
+    # Sort String Branch Example: Capitalized words sort before lowercase words when alphabetized 
     return sorted(strings, reverse=reverse)
 
 def run_sorter():
